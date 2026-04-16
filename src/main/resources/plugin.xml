@@ -1,0 +1,8 @@
+name: OneBlockPlugin
+version: 1.0
+main: me.soumya.oneblock.OneBlockPlugin
+api-version: 1.21
+
+commands:
+  startoneblock:
+    description: Start the one block system
