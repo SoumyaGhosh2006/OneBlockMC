@@ -1,3 +1,5 @@
 me\soumya\oneblock\ChestManager.class
 me\soumya\oneblock\OneBlockPlugin.class
+me\soumya\oneblock\Phase.class
+me\soumya\oneblock\BlockListener$1.class
 me\soumya\oneblock\BlockListener.class

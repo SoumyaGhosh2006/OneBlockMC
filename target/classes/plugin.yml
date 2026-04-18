@@ -1,0 +1,11 @@
+name: OneBlock
+version: 2.0.0
+main: me.soumya.oneblock.OneBlockPlugin
+api-version: 1.21
+author: Soumya
+description: |
+  OneBlock challenge plugin — break a single block forever, progress through phases,
+  and collect 12 End Portal Frames to beat the game. No nether/end mobs or items.
+
+commands: {}
+permissions: {}

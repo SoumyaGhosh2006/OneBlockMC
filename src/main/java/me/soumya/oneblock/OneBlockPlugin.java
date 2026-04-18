@@ -9,10 +9,13 @@ public class OneBlockPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-
         getServer().getPluginManager().registerEvents(new BlockListener(), this);
+        getLogger().info("§aOneBlock Plugin Enabled! Good luck beating the game!");
+    }
 
-        getLogger().info("OneBlock Plugin Enabled!");
+    @Override
+    public void onDisable() {
+        getLogger().info("OneBlock Plugin Disabled.");
     }
 
     public static OneBlockPlugin getInstance() {
